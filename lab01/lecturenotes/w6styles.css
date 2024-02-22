@@ -1,4 +1,15 @@
+/* grouped selector, will style all h1's and p's*/
 h1 {color: green;
     font: size 80%;
+    font-family: Arial, Helvetica, sans-serif;
 } 
-p {color:cadetblue}
+/* p {color:cadetblue}
+This is our element selector, every p on the page gets styles
+*/
+/* this styles the a inside of a p tag, its called a descendant*/
+p a {color: darkseagreen}
+/* this styles the id */
+#secondparagraph {color: chartreuse;}
+
+/*this styles a class*/
+.purpletext {color: purple}
